@@ -110,83 +110,65 @@
       </div>
     </div>
   </section>   
-  
-  
-      <section class="bg-dark" id="education-section"> 
-        <div class="container py-5 ">
-          <h3 style="font-size: 2rem;" class="text-success text-center">Education</h3>
-          <hr style="color:rgb(8, 247, 0)">
-          <div class="main-timeline pt-5">
-            <div class="timeline left">
-              <div class="card">
-                <div class="card-body p-4">
-                  <h3>2020-2021</h3>
-                  <p class="mb-0">->10th Standard.<br>->School Name: St.stephen's HSS Keerampara.<br>->Board:  Kerala Board of Public Examinations (KBPE).<br>->% of Mark: 86%.</p>
-                </div>
-              </div>
-            </div>
-            <div class="timeline right">
-              <div class="card">
-                <div class="card-body p-4">
-                  <h3>2021-2023</h3>
-                  <p class="mb-0">->Higher Secondary 10+2. <br>->School name: St.stephen's HSS keerampara. <br>->Board: Kerala Board of Public Examinations. <br>->Stream: Computer Science.<br>->% of Mark: 89%.</p>
-                </div>
-              </div>
-            </div>
-            <div class="timeline left">
-              <div class="card">
-                <div class="card-body p-4">
-                  <h3>2023-2026</h3>
-                  <p class="mb-0">->Pursuing ,Bachelors of Computer Applications.<br>->College Name: Marian College Kuttikkanam (Autonomous).<br>->University: Mahatma Ghandhi University.</p>
-                </div>
-              </div>
-            </div>
+
+    <section class="bg-dark" id="contact-section">
+  <div class="container">
+    <h3 class="text-center text-success">Contact</h3>
+    <hr style="color:rgb(8, 247, 0)"> 
+    <div class="pt-5">
+      <form action="">
+        <div class="row justify-content-center">
+          <!-- First Name Field -->
+          <div class="col-12 col-md-5 mb-3">
+            <label for="first-name" class="text-chartreuse">First Name</label>
+            <input type="text" id="first-name" placeholder="Eldhose" class="form-control custom-input">
+          </div>
+
+          <!-- Last Name Field -->
+          <div class="col-12 col-md-5 mb-3">
+            <label for="last-name" class="text-chartreuse">Last Name</label>
+            <input type="text" id="last-name" placeholder="Benny" class="form-control custom-input">
           </div>
         </div>
-      </section> 
 
-      <section class="bg-dark" id="contact-section">
-        <div class="container">
-          <h3 class="text-center text-success">Contact</h3>
-          <hr style="color:rgb(8, 247, 0)"> 
-        <center>
-          <div class="pt-5 col-12" style="width: 100%; height:580px;">
-            <form action="" class="">
-              <table class="login-controls" style="display: flex; align-items: center; justify-content: center;">
-                <tbody class="alignment" style="display: flex; flex-direction: column;">
-                  <tr>
-                    <td><label class="" style="color:chartreuse">First Name.</label></td>
-                    <td><label class="last-name" style="color:chartreuse; padding-left: 135px;"> Last Name. </label></td>
-                  </tr> 
-                  <tr>
-                    <td><input type="text" placeholder="Eldhose" style="font-weight: bold; background-color: cornsilk; border-radius: 10px; border: solid 3px; border-color:blue;" disabled></td>
-                    <td><input type="text" placeholder="Benny" style="font-weight: bold; background-color: cornsilk; border-radius: 10px; border: solid 3px; border-color:blue;" disabled>
-                  </tr>
-                   
-                  <tr>
-                    <td><label class="pt-3" style="color:chartreuse;">Email</label></td>
-                  </tr>
-                  <tr>
-                    <td><input type="text" placeholder="eldhosebenny464@gmail.com" style="width:433px; font-weight: bold; background-color:cornsilk ;border-radius: 10px; border: solid 3px; border-color:blue;" disabled></td>
-                </tr>
-
-                <tr>
-                  <td><label class="pt-3" style="color:chartreuse">Mobile Number</label></td>
-                </tr>
-                <tr>
-                  <td><input type="text" placeholder="9207873694" class="for-first-name" style="width:433px; font-weight: bold; background-color: cornsilk; border-radius: 10px; border: solid 3px; border-color:blue;" disabled></td>
-              </tr>
-                </tbody>
-              </table>
-            </form>
-          </div> 
-        </center>
+        <!-- Email Field -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 mb-3">
+            <label for="email" class="text-chartreuse">Email</label>
+            <input type="email" id="email" placeholder="eldhosebenny464@gmail.com" class="form-control custom-input">
+          </div>
         </div>
-      </section>
+
+        <!-- Mobile Number Field -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 mb-3">
+            <label for="mobile" class="text-chartreuse">Mobile Number</label>
+            <input type="text" id="mobile" placeholder="9207873694" class="form-control custom-input">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Add this style in your CSS -->
+<style>
+  .text-chartreuse {
+    color: chartreuse;
+  }
+
+  .custom-input {
+    font-weight: bold;
+    background-color: cornsilk;
+    border-radius: 10px;
+    border: 3px solid blue;
+  }
+</style>
+
 
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> */
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
      
 </body>
 </html>
